@@ -1,0 +1,98 @@
+{
+  "firefox-esr": {
+    "version": "128.13.0",
+    "fecha": "2025-07-25"
+  },
+  "librewolf": {
+    "version": "desconocida",
+    "fecha": "desconocida"
+  },
+  "brave": {
+    "version": "1.80.124",
+    "fecha": "2025-07-23"
+  },
+  "mullvad": {
+    "version": "",
+    "fecha": ""
+  },
+  "chromium": {
+    "version": "",
+    "fecha": "repositorio"
+  },
+  "falkon": {
+    "version": "3.2",
+    "fecha": "2022-07"
+  },
+  "basilisk": {
+    "version": "2024.06.16",
+    "fecha": "2024-06-16"
+  },
+  "palemoon": {
+    "version": "33.2.0",
+    "fecha": "2024-06"
+  },
+  "seamonkey": {
+    "version": "2.53.18.1",
+    "fecha": "2024-06-30"
+  },
+  "otter-browser": {
+    "version": "1.0.03",
+    "fecha": "2023-05"
+  },
+  "srware-iron": {
+    "version": "124.0.6200.0",
+    "fecha": "2024-04"
+  },
+  "thorium": {
+    "version": "M124",
+    "fecha": "2024-04"
+  },
+  "epiphany": {
+    "version": "depende-distro",
+    "fecha": "depende-entorno"
+  },
+  "midori": {
+    "version": "10.0.2",
+    "fecha": "2021-07"
+  },
+  "netsurf": {
+    "version": "3.10",
+    "fecha": "2020-06"
+  },
+  "dillo": {
+    "version": "3.0.5",
+    "fecha": "2015-07"
+  },
+  "surf": {
+    "version": "0.9",
+    "fecha": "2020-05"
+  },
+  "yandex": {
+    "version": "actual",
+    "fecha": "variable"
+  },
+  "lynx": {
+    "version": "actual",
+    "fecha": "paquete"
+  },
+  "elinks": {
+    "version": "actual",
+    "fecha": "paquete"
+  },
+  "w3m": {
+    "version": "actual",
+    "fecha": "paquete"
+  },
+  "links2": {
+    "version": "actual",
+    "fecha": "paquete"
+  },
+  "ladybird": {
+    "version": "experimental",
+    "fecha": "no-aplica"
+  },
+  "qutebrowser": {
+    "version": "3.0.0",
+    "fecha": "2024-04"
+  }
+}
