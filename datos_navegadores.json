@@ -1,98 +1,224 @@
 {
-  "firefox-esr": {
-    "version": "128.13.0",
-    "fecha": "2025-07-25"
-  },
-  "librewolf": {
-    "version": "desconocida",
-    "fecha": "desconocida"
-  },
-  "brave": {
-    "version": "1.80.124",
-    "fecha": "2025-07-23"
-  },
-  "mullvad": {
-    "version": "",
-    "fecha": ""
-  },
-  "chromium": {
-    "version": "",
-    "fecha": "repositorio"
-  },
-  "falkon": {
-    "version": "3.2",
-    "fecha": "2022-07"
-  },
-  "basilisk": {
-    "version": "2024.06.16",
-    "fecha": "2024-06-16"
-  },
-  "palemoon": {
-    "version": "33.2.0",
-    "fecha": "2024-06"
-  },
-  "seamonkey": {
-    "version": "2.53.18.1",
-    "fecha": "2024-06-30"
-  },
-  "otter-browser": {
-    "version": "1.0.03",
-    "fecha": "2023-05"
-  },
-  "srware-iron": {
-    "version": "124.0.6200.0",
-    "fecha": "2024-04"
-  },
-  "thorium": {
-    "version": "M124",
-    "fecha": "2024-04"
-  },
-  "epiphany": {
-    "version": "depende-distro",
-    "fecha": "depende-entorno"
-  },
-  "midori": {
-    "version": "10.0.2",
-    "fecha": "2021-07"
-  },
-  "netsurf": {
-    "version": "3.10",
-    "fecha": "2020-06"
-  },
-  "dillo": {
-    "version": "3.0.5",
-    "fecha": "2015-07"
-  },
-  "surf": {
-    "version": "0.9",
-    "fecha": "2020-05"
-  },
-  "yandex": {
-    "version": "actual",
-    "fecha": "variable"
-  },
-  "lynx": {
-    "version": "actual",
-    "fecha": "paquete"
-  },
-  "elinks": {
-    "version": "actual",
-    "fecha": "paquete"
-  },
-  "w3m": {
-    "version": "actual",
-    "fecha": "paquete"
-  },
-  "links2": {
-    "version": "actual",
-    "fecha": "paquete"
-  },
-  "ladybird": {
-    "version": "experimental",
-    "fecha": "no-aplica"
-  },
-  "qutebrowser": {
-    "version": "3.0.0",
-    "fecha": "2024-04"
-  }
+  "navegadores_32bits": [
+    {
+      "nombre": "Firefox ESR",
+      "slug": "firefox-esr",
+      "descripcion": "Versión de soporte extendido de Firefox, ideal para sistemas más antiguos o con recursos limitados. Ofrece estabilidad y seguridad.",
+      "url": "https://www.mozilla.org/es-AR/firefox/organizations/all/",
+      "version_minima_ram": "1GB",
+      "ultima_version": "128.13.0",
+      "fecha_actualizacion": "2025-07-25"
+    },
+    {
+      "nombre": "Pale Moon",
+      "slug": "palemoon",
+      "descripcion": "Navegador de código abierto basado en Firefox, optimizado para eficiencia y personalización en arquitecturas x86.",
+      "url": "https://www.palemoon.org/",
+      "version_minima_ram": "512MB",
+      "ultima_version": "33.2.0",
+      "fecha_actualizacion": "2024-06"
+    },
+    {
+      "nombre": "Basilisk",
+      "slug": "basilisk",
+      "descripcion": "Navegador de código abierto basado en XUL, diseñado para ser un sucesor de Firefox antes de Quantum.",
+      "url": "https://www.basilisk-browser.org/",
+      "version_minima_ram": "512MB",
+      "ultima_version": "2024.06.16",
+      "fecha_actualizacion": "2024-06-16"
+    },
+    {
+      "nombre": "SeaMonkey",
+      "slug": "seamonkey",
+      "descripcion": "Suite de internet todo-en-uno que incluye navegador, cliente de correo, chat y editor HTML.",
+      "url": "https://www.seamonkey-project.org/",
+      "version_minima_ram": "512MB",
+      "ultima_version": "2.53.18.1",
+      "fecha_actualizacion": "2024-06-30"
+    },
+    {
+      "nombre": "Otter Browser",
+      "slug": "otter-browser",
+      "descripcion": "Navegador que aspira a recrear las mejores características del Opera clásico (Presto).",
+      "url": "https://otter-browser.org/",
+      "version_minima_ram": "512MB",
+      "ultima_version": "1.0.03",
+      "fecha_actualizacion": "2023-05"
+    }
+  ],
+  "navegadores_terminal": [
+    {
+      "nombre": "Lynx",
+      "slug": "lynx",
+      "descripcion": "Navegador web basado en texto, muy ligero y rápido, ideal para terminales.",
+      "url": "https://lynx.browser.org/",
+      "comandos": "sudo apt install lynx",
+      "ultima_version": "actual",
+      "fecha_actualizacion": "paquete"
+    },
+    {
+      "nombre": "Elinks",
+      "slug": "elinks",
+      "descripcion": "Navegador web basado en texto con soporte para tablas y frames, muy configurable.",
+      "url": "http://elinks.or.cz/",
+      "comandos": "sudo apt install elinks",
+      "ultima_version": "actual",
+      "fecha_actualizacion": "paquete"
+    },
+    {
+      "nombre": "W3m",
+      "slug": "w3m",
+      "descripcion": "Navegador web basado en texto con soporte para imágenes y tablas, se integra bien con editores.",
+      "url": "https://w3m.sourceforge.net/",
+      "comandos": "sudo apt install w3m",
+      "ultima_version": "actual",
+      "fecha_actualizacion": "paquete"
+    },
+    {
+      "nombre": "Links2",
+      "slug": "links2",
+      "descripcion": "Navegador web gráfico y de texto, puede renderizar gráficos en terminales framebuffer.",
+      "url": "http://links.twibright.com/",
+      "comandos": "sudo apt install links2",
+      "ultima_version": "actual",
+      "fecha_actualizacion": "paquete"
+    }
+  ],
+  "otros_navegadores_64bits": [
+    {
+      "nombre": "LibreWolf",
+      "slug": "librewolf",
+      "descripcion": "Un fork de Firefox centrado en la privacidad, seguridad y libertad.",
+      "url": "https://librewolf.net/",
+      "arquitectura": "64-bit",
+      "ultima_version": "desconocida",
+      "fecha_actualizacion": "desconocida"
+    },
+    {
+      "nombre": "Brave",
+      "slug": "brave",
+      "descripcion": "Navegador centrado en la privacidad, bloquea anuncios y rastreadores por defecto. Basado en Chromium.",
+      "url": "https://brave.com/es/download/",
+      "arquitectura": "64-bit",
+      "ultima_version": "1.80.124",
+      "fecha_actualizacion": "2025-07-23"
+    },
+    {
+      "nombre": "Mullvad Browser",
+      "slug": "mullvad",
+      "descripcion": "Navegador desarrollado por Mullvad VPN y el Proyecto Tor, enfocado en la privacidad extrema.",
+      "url": "https://mullvad.net/es/browser/",
+      "arquitectura": "64-bit",
+      "ultima_version": "actual",
+      "fecha_actualizacion": "variable"
+    },
+    {
+      "nombre": "Chromium",
+      "slug": "chromium",
+      "descripcion": "El proyecto de navegador de código abierto de Google, base para Chrome y otros navegadores.",
+      "url": "https://www.chromium.org/Home/",
+      "arquitectura": "64-bit",
+      "ultima_version": "actual",
+      "fecha_actualizacion": "repositorio"
+    },
+    {
+      "nombre": "Falkon",
+      "slug": "falkon",
+      "descripcion": "Navegador web basado en QtWebEngine, ligero y con integración de escritorio KDE.",
+      "url": "https://www.falkon.org/",
+      "arquitectura": "64-bit",
+      "ultima_version": "3.2",
+      "fecha_actualizacion": "2022-07"
+    },
+    {
+      "nombre": "SRWare Iron",
+      "slug": "srware-iron",
+      "descripcion": "Navegador basado en Chromium que elimina las funcionalidades de seguimiento y 'phoning home' de Google.",
+      "url": "https://www.srware.net/iron/",
+      "arquitectura": "64-bit",
+      "ultima_version": "124.0.6200.0",
+      "fecha_actualizacion": "2024-04"
+    },
+    {
+      "nombre": "Thorium",
+      "slug": "thorium",
+      "descripcion": "Un fork de Chromium optimizado para rendimiento en varias arquitecturas de CPU.",
+      "url": "https://thorium.rocks/",
+      "arquitectura": "64-bit",
+      "ultima_version": "M124",
+      "fecha_actualizacion": "2024-04"
+    },
+    {
+      "nombre": "Epiphany (GNOME Web)",
+      "slug": "epiphany",
+      "descripcion": "Navegador web simple e integrado con el entorno de escritorio GNOME.",
+      "url": "https://wiki.gnome.org/Apps/Web",
+      "arquitectura": "64-bit",
+      "ultima_version": "depende-distro",
+      "fecha_actualizacion": "depende-entorno"
+    },
+    {
+      "nombre": "Midori",
+      "slug": "midori",
+      "descripcion": "Navegador web ligero y rápido que utiliza el motor de renderizado Blink.",
+      "url": "https://www.midori-browser.org/",
+      "arquitectura": "64-bit",
+      "ultima_version": "10.0.2",
+      "fecha_actualizacion": "2021-07"
+    },
+    {
+      "nombre": "NetSurf",
+      "slug": "netsurf",
+      "descripcion": "Navegador web ligero y de código abierto, diseñado para sistemas con pocos recursos.",
+      "url": "https://www.netsurf-browser.org/",
+      "arquitectura": "64-bit",
+      "ultima_version": "3.10",
+      "fecha_actualizacion": "2020-06"
+    },
+    {
+      "nombre": "Dillo",
+      "slug": "dillo",
+      "descripcion": "Navegador web muy pequeño y rápido, ideal para máquinas antiguas o embebidas.",
+      "url": "https://www.dillo.org/",
+      "arquitectura": "64-bit",
+      "ultima_version": "3.0.5",
+      "fecha_actualizacion": "2015-07"
+    },
+    {
+      "nombre": "Surf",
+      "slug": "surf",
+      "descripcion": "Navegador web minimalista basado en WebKit/GTK, parte del proyecto suckless.",
+      "url": "https://surf.suckless.org/",
+      "arquitectura": "64-bit",
+      "ultima_version": "0.9",
+      "fecha_actualizacion": "2020-05"
+    },
+    {
+      "nombre": "Yandex Browser",
+      "slug": "yandex",
+      "descripcion": "Navegador web de Yandex con funciones de seguridad y personalización.",
+      "url": "https://browser.yandex.com/",
+      "arquitectura": "64-bit",
+      "ultima_version": "actual",
+      "fecha_actualizacion": "variable"
+    },
+    {
+      "nombre": "Ladybird",
+      "slug": "ladybird",
+      "descripcion": "Navegador web en desarrollo activo, parte del proyecto SerenityOS.",
+      "url": "https://ladybird.browser.org/",
+      "arquitectura": "64-bit",
+      "ultima_version": "experimental",
+      "fecha_actualizacion": "no-aplica"
+    },
+    {
+      "nombre": "Qutebrowser",
+      "slug": "qutebrowser",
+      "descripcion": "Navegador web basado en QtWebEngine con un enfoque en el teclado y una interfaz minimalista.",
+      "url": "https://www.qutebrowser.org/",
+      "arquitectura": "64-bit",
+      "ultima_version": "3.0.0",
+      "fecha_actualizacion": "2024-04"
+    }
+  ]
 }
