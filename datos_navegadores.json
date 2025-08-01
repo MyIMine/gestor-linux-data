@@ -7,7 +7,8 @@
       "url": "https://www.mozilla.org/es-AR/firefox/organizations/all/",
       "version_minima_ram": "1GB",
       "ultima_version": "128.13.0",
-      "fecha_actualizacion": "2025-07-25"
+      "fecha_actualizacion": "2025-07-25",
+      "fecha_fin_soporte": "depende-ciclo-ESR"
     },
     {
       "nombre": "Pale Moon",
@@ -16,7 +17,8 @@
       "url": "https://www.palemoon.org/",
       "version_minima_ram": "512MB",
       "ultima_version": "33.2.0",
-      "fecha_actualizacion": "2024-06"
+      "fecha_actualizacion": "2024-06",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Basilisk",
@@ -25,7 +27,8 @@
       "url": "https://www.basilisk-browser.org/",
       "version_minima_ram": "512MB",
       "ultima_version": "2024.06.16",
-      "fecha_actualizacion": "2024-06-16"
+      "fecha_actualizacion": "2024-06-16",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "SeaMonkey",
@@ -34,7 +37,8 @@
       "url": "https://www.seamonkey-project.org/",
       "version_minima_ram": "512MB",
       "ultima_version": "2.53.18.1",
-      "fecha_actualizacion": "2024-06-30"
+      "fecha_actualizacion": "2024-06-30",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Otter Browser",
@@ -43,7 +47,8 @@
       "url": "https://otter-browser.org/",
       "version_minima_ram": "512MB",
       "ultima_version": "1.0.03",
-      "fecha_actualizacion": "2023-05"
+      "fecha_actualizacion": "2023-05",
+      "fecha_fin_soporte": "depende-proyecto"
     }
   ],
   "navegadores_terminal": [
@@ -54,7 +59,8 @@
       "url": "https://lynx.browser.org/",
       "comandos": "sudo apt install lynx",
       "ultima_version": "actual",
-      "fecha_actualizacion": "paquete"
+      "fecha_actualizacion": "paquete",
+      "fecha_fin_soporte": "depende-distro"
     },
     {
       "nombre": "Elinks",
@@ -63,7 +69,8 @@
       "url": "http://elinks.or.cz/",
       "comandos": "sudo apt install elinks",
       "ultima_version": "actual",
-      "fecha_actualizacion": "paquete"
+      "fecha_actualizacion": "paquete",
+      "fecha_fin_soporte": "depende-distro"
     },
     {
       "nombre": "W3m",
@@ -72,7 +79,8 @@
       "url": "https://w3m.sourceforge.net/",
       "comandos": "sudo apt install w3m",
       "ultima_version": "actual",
-      "fecha_actualizacion": "paquete"
+      "fecha_actualizacion": "paquete",
+      "fecha_fin_soporte": "depende-distro"
     },
     {
       "nombre": "Links2",
@@ -81,7 +89,8 @@
       "url": "http://links.twibright.com/",
       "comandos": "sudo apt install links2",
       "ultima_version": "actual",
-      "fecha_actualizacion": "paquete"
+      "fecha_actualizacion": "paquete",
+      "fecha_fin_soporte": "depende-distro"
     }
   ],
   "otros_navegadores_64bits": [
@@ -92,7 +101,8 @@
       "url": "https://librewolf.net/",
       "arquitectura": "64-bit",
       "ultima_version": "desconocida",
-      "fecha_actualizacion": "desconocida"
+      "fecha_actualizacion": "desconocida",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Brave",
@@ -101,7 +111,8 @@
       "url": "https://brave.com/es/download/",
       "arquitectura": "64-bit",
       "ultima_version": "1.80.124",
-      "fecha_actualizacion": "2025-07-23"
+      "fecha_actualizacion": "2025-07-23",
+      "fecha_fin_soporte": "depende-chromium"
     },
     {
       "nombre": "Mullvad Browser",
@@ -110,7 +121,8 @@
       "url": "https://mullvad.net/es/browser/",
       "arquitectura": "64-bit",
       "ultima_version": "actual",
-      "fecha_actualizacion": "variable"
+      "fecha_actualizacion": "variable",
+      "fecha_fin_soporte": "depende-tor"
     },
     {
       "nombre": "Chromium",
@@ -119,7 +131,8 @@
       "url": "https://www.chromium.org/Home/",
       "arquitectura": "64-bit",
       "ultima_version": "actual",
-      "fecha_actualizacion": "repositorio"
+      "fecha_actualizacion": "repositorio",
+      "fecha_fin_soporte": "depende-distro"
     },
     {
       "nombre": "Falkon",
@@ -128,7 +141,8 @@
       "url": "https://www.falkon.org/",
       "arquitectura": "64-bit",
       "ultima_version": "3.2",
-      "fecha_actualizacion": "2022-07"
+      "fecha_actualizacion": "2022-07",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "SRWare Iron",
@@ -137,7 +151,8 @@
       "url": "https://www.srware.net/iron/",
       "arquitectura": "64-bit",
       "ultima_version": "124.0.6200.0",
-      "fecha_actualizacion": "2024-04"
+      "fecha_actualizacion": "2024-04",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Thorium",
@@ -146,7 +161,8 @@
       "url": "https://thorium.rocks/",
       "arquitectura": "64-bit",
       "ultima_version": "M124",
-      "fecha_actualizacion": "2024-04"
+      "fecha_actualizacion": "2024-04",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Epiphany (GNOME Web)",
@@ -155,7 +171,8 @@
       "url": "https://wiki.gnome.org/Apps/Web",
       "arquitectura": "64-bit",
       "ultima_version": "depende-distro",
-      "fecha_actualizacion": "depende-entorno"
+      "fecha_actualizacion": "depende-entorno",
+      "fecha_fin_soporte": "depende-distro"
     },
     {
       "nombre": "Midori",
@@ -164,7 +181,8 @@
       "url": "https://www.midori-browser.org/",
       "arquitectura": "64-bit",
       "ultima_version": "10.0.2",
-      "fecha_actualizacion": "2021-07"
+      "fecha_actualizacion": "2021-07",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "NetSurf",
@@ -173,7 +191,8 @@
       "url": "https://www.netsurf-browser.org/",
       "arquitectura": "64-bit",
       "ultima_version": "3.10",
-      "fecha_actualizacion": "2020-06"
+      "fecha_actualizacion": "2020-06",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Dillo",
@@ -182,7 +201,8 @@
       "url": "https://www.dillo.org/",
       "arquitectura": "64-bit",
       "ultima_version": "3.0.5",
-      "fecha_actualizacion": "2015-07"
+      "fecha_actualizacion": "2015-07",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Surf",
@@ -191,7 +211,8 @@
       "url": "https://surf.suckless.org/",
       "arquitectura": "64-bit",
       "ultima_version": "0.9",
-      "fecha_actualizacion": "2020-05"
+      "fecha_actualizacion": "2020-05",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Yandex Browser",
@@ -200,7 +221,8 @@
       "url": "https://browser.yandex.com/",
       "arquitectura": "64-bit",
       "ultima_version": "actual",
-      "fecha_actualizacion": "variable"
+      "fecha_actualizacion": "variable",
+      "fecha_fin_soporte": "depende-proyecto"
     },
     {
       "nombre": "Ladybird",
@@ -209,7 +231,8 @@
       "url": "https://ladybird.browser.org/",
       "arquitectura": "64-bit",
       "ultima_version": "experimental",
-      "fecha_actualizacion": "no-aplica"
+      "fecha_actualizacion": "no-aplica",
+      "fecha_fin_soporte": "no-aplica"
     },
     {
       "nombre": "Qutebrowser",
@@ -218,7 +241,8 @@
       "url": "https://www.qutebrowser.org/",
       "arquitectura": "64-bit",
       "ultima_version": "3.0.0",
-      "fecha_actualizacion": "2024-04"
+      "fecha_actualizacion": "2024-04",
+      "fecha_fin_soporte": "depende-proyecto"
     }
   ]
 }
