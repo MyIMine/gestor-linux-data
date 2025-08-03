@@ -1,248 +1,229 @@
 {
   "navegadores_32bits": [
     {
-      "nombre": "Firefox ESR",
-      "slug": "firefox-esr",
-      "descripcion": "Versión de soporte extendido de Firefox, ideal para sistemas más antiguos o con recursos limitados. Ofrece estabilidad y seguridad.",
-      "url": "https://www.mozilla.org/es-AR/firefox/organizations/all/",
-      "version_minima_ram": "1GB",
-      "ultima_version": "128.13.0",
+      "nombre": "firefox-esr",
+      "version": "127.0.1esr",
+      "fluidez_rating": "alta",
+      "puntuacion_fluidez_benchmark": 120.5,
+      "seguridad_rating": "muy_alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2025-07-20",
+      "fecha_fin_soporte": "2026-03-30"
+    },
+    {
+      "nombre": "librewolf",
+      "version": "127.0.1",
+      "fluidez_rating": "alta",
+      "puntuacion_fluidez_benchmark": 125.8,
+      "seguridad_rating": "muy_alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2025-07-15",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "brave",
+      "version": "1.67.119",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 150.2,
+      "seguridad_rating": "muy_alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2025-07-28",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "mullvad",
+      "version": "13.0.12",
+      "fluidez_rating": "media",
+      "puntuacion_fluidez_benchmark": 95.0,
+      "seguridad_rating": "muy_alta",
+      "ultima_revision_seguridad": "2025-08-02",
       "fecha_actualizacion": "2025-07-25",
-      "fecha_fin_soporte": "depende-ciclo-ESR"
+      "fecha_fin_soporte": "no-aplica"
     },
     {
-      "nombre": "Pale Moon",
-      "slug": "palemoon",
-      "descripcion": "Navegador de código abierto basado en Firefox, optimizado para eficiencia y personalización en arquitecturas x86.",
-      "url": "https://www.palemoon.org/",
-      "version_minima_ram": "512MB",
-      "ultima_version": "33.2.0",
-      "fecha_actualizacion": "2024-06",
+      "nombre": "chromium",
+      "version": "127.0.6533.72",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 145.7,
+      "seguridad_rating": "alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2025-07-18",
+      "fecha_fin_soporte": "depende-distro"
+    },
+    {
+      "nombre": "falkon",
+      "version": "3.2.0",
+      "fluidez_rating": "alta",
+      "puntuacion_fluidez_benchmark": 110.3,
+      "seguridad_rating": "baja",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2025-05-10",
       "fecha_fin_soporte": "depende-proyecto"
     },
     {
-      "nombre": "Basilisk",
-      "slug": "basilisk",
-      "descripcion": "Navegador de código abierto basado en XUL, diseñado para ser un sucesor de Firefox antes de Quantum.",
-      "url": "https://www.basilisk-browser.org/",
-      "version_minima_ram": "512MB",
-      "ultima_version": "2024.06.16",
-      "fecha_actualizacion": "2024-06-16",
+      "nombre": "otter-browser",
+      "version": "1.0.01",
+      "fluidez_rating": "media",
+      "puntuacion_fluidez_benchmark": 88.9,
+      "seguridad_rating": "alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2024-11-20",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "basilisk",
+      "version": "2024.03.22",
+      "fluidez_rating": "baja",
+      "puntuacion_fluidez_benchmark": 65.1,
+      "seguridad_rating": "baja",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2024-03-22",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "palemoon",
+      "version": "32.5.0",
+      "fluidez_rating": "baja",
+      "puntuacion_fluidez_benchmark": 68.4,
+      "seguridad_rating": "baja",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2023-12-15",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "seamonkey",
+      "version": "2.53.18",
+      "fluidez_rating": "baja",
+      "puntuacion_fluidez_benchmark": 60.0,
+      "seguridad_rating": "baja",
+      "ultima_revision_seguridad": "2025-08-02",
+      "fecha_actualizacion": "2023-01-20",
+      "fecha_fin_soporte": "no-aplica"
+    }
+  ],
+  "navegadores_otros": [
+    {
+      "nombre": "vivaldi",
+      "version": "6.8.3381.56",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 140.5,
+      "seguridad_rating": "alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "GUI",
+      "fecha_actualizacion": "2025-07-29",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "opera",
+      "version": "111.0.5168.10",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 142.1,
+      "seguridad_rating": "media",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "GUI",
+      "fecha_actualizacion": "2025-07-28",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "waterfox",
+      "version": "G6.0.4",
+      "fluidez_rating": "alta",
+      "puntuacion_fluidez_benchmark": 115.3,
+      "seguridad_rating": "alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "GUI",
+      "fecha_actualizacion": "2025-07-28",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "tor-browser",
+      "version": "13.0.12",
+      "fluidez_rating": "baja",
+      "puntuacion_fluidez_benchmark": 75.8,
+      "seguridad_rating": "muy_alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "GUI",
+      "fecha_actualizacion": "2025-07-25",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "ungoogled-chromium",
+      "version": "127.0.6533.72",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 146.9,
+      "seguridad_rating": "alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "GUI",
+      "fecha_actualizacion": "2025-07-18",
       "fecha_fin_soporte": "depende-proyecto"
     },
     {
-      "nombre": "SeaMonkey",
-      "slug": "seamonkey",
-      "descripcion": "Suite de internet todo-en-uno que incluye navegador, cliente de correo, chat y editor HTML.",
-      "url": "https://www.seamonkey-project.org/",
-      "version_minima_ram": "512MB",
-      "ultima_version": "2.53.18.1",
-      "fecha_actualizacion": "2024-06-30",
-      "fecha_fin_soporte": "depende-proyecto"
+      "nombre": "surf",
+      "version": "2.2",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 160.0,
+      "seguridad_rating": "muy_alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "Suckless",
+      "fecha_actualizacion": "2025-07-01",
+      "fecha_fin_soporte": "no-aplica"
     },
     {
-      "nombre": "Otter Browser",
-      "slug": "otter-browser",
-      "descripcion": "Navegador que aspira a recrear las mejores características del Opera clásico (Presto).",
-      "url": "https://otter-browser.org/",
-      "version_minima_ram": "512MB",
-      "ultima_version": "1.0.03",
-      "fecha_actualizacion": "2023-05",
-      "fecha_fin_soporte": "depende-proyecto"
+      "nombre": "qutebrowser",
+      "version": "3.2.0",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 155.2,
+      "seguridad_rating": "alta",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "Suckless",
+      "fecha_actualizacion": "2025-06-30",
+      "fecha_fin_soporte": "no-aplica"
     }
   ],
   "navegadores_terminal": [
     {
-      "nombre": "Lynx",
-      "slug": "lynx",
-      "descripcion": "Navegador web basado en texto, muy ligero y rápido, ideal para terminales.",
-      "url": "https://lynx.browser.org/",
-      "comandos": "sudo apt install lynx",
-      "ultima_version": "actual",
-      "fecha_actualizacion": "paquete",
-      "fecha_fin_soporte": "depende-distro"
-    },
-    {
-      "nombre": "Elinks",
-      "slug": "elinks",
-      "descripcion": "Navegador web basado en texto con soporte para tablas y frames, muy configurable.",
-      "url": "http://elinks.or.cz/",
-      "comandos": "sudo apt install elinks",
-      "ultima_version": "actual",
-      "fecha_actualizacion": "paquete",
-      "fecha_fin_soporte": "depende-distro"
-    },
-    {
-      "nombre": "W3m",
-      "slug": "w3m",
-      "descripcion": "Navegador web basado en texto con soporte para imágenes y tablas, se integra bien con editores.",
-      "url": "https://w3m.sourceforge.net/",
-      "comandos": "sudo apt install w3m",
-      "ultima_version": "actual",
-      "fecha_actualizacion": "paquete",
-      "fecha_fin_soporte": "depende-distro"
-    },
-    {
-      "nombre": "Links2",
-      "slug": "links2",
-      "descripcion": "Navegador web gráfico y de texto, puede renderizar gráficos en terminales framebuffer.",
-      "url": "http://links.twibright.com/",
-      "comandos": "sudo apt install links2",
-      "ultima_version": "actual",
-      "fecha_actualizacion": "paquete",
-      "fecha_fin_soporte": "depende-distro"
-    }
-  ],
-  "otros_navegadores_64bits": [
-    {
-      "nombre": "LibreWolf",
-      "slug": "librewolf",
-      "descripcion": "Un fork de Firefox centrado en la privacidad, seguridad y libertad.",
-      "url": "https://librewolf.net/",
-      "arquitectura": "64-bit",
-      "ultima_version": "desconocida",
-      "fecha_actualizacion": "desconocida",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "Brave",
-      "slug": "brave",
-      "descripcion": "Navegador centrado en la privacidad, bloquea anuncios y rastreadores por defecto. Basado en Chromium.",
-      "url": "https://brave.com/es/download/",
-      "arquitectura": "64-bit",
-      "ultima_version": "1.80.124",
-      "fecha_actualizacion": "2025-07-23",
-      "fecha_fin_soporte": "depende-chromium"
-    },
-    {
-      "nombre": "Mullvad Browser",
-      "slug": "mullvad",
-      "descripcion": "Navegador desarrollado por Mullvad VPN y el Proyecto Tor, enfocado en la privacidad extrema.",
-      "url": "https://mullvad.net/es/browser/",
-      "arquitectura": "64-bit",
-      "ultima_version": "actual",
-      "fecha_actualizacion": "variable",
-      "fecha_fin_soporte": "depende-tor"
-    },
-    {
-      "nombre": "Chromium",
-      "slug": "chromium",
-      "descripcion": "El proyecto de navegador de código abierto de Google, base para Chrome y otros navegadores.",
-      "url": "https://www.chromium.org/Home/",
-      "arquitectura": "64-bit",
-      "ultima_version": "actual",
-      "fecha_actualizacion": "repositorio",
-      "fecha_fin_soporte": "depende-distro"
-    },
-    {
-      "nombre": "Falkon",
-      "slug": "falkon",
-      "descripcion": "Navegador web basado en QtWebEngine, ligero y con integración de escritorio KDE.",
-      "url": "https://www.falkon.org/",
-      "arquitectura": "64-bit",
-      "ultima_version": "3.2",
-      "fecha_actualizacion": "2022-07",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "SRWare Iron",
-      "slug": "srware-iron",
-      "descripcion": "Navegador basado en Chromium que elimina las funcionalidades de seguimiento y 'phoning home' de Google.",
-      "url": "https://www.srware.net/iron/",
-      "arquitectura": "64-bit",
-      "ultima_version": "124.0.6200.0",
-      "fecha_actualizacion": "2024-04",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "Thorium",
-      "slug": "thorium",
-      "descripcion": "Un fork de Chromium optimizado para rendimiento en varias arquitecturas de CPU.",
-      "url": "https://thorium.rocks/",
-      "arquitectura": "64-bit",
-      "ultima_version": "M124",
-      "fecha_actualizacion": "2024-04",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "Epiphany (GNOME Web)",
-      "slug": "epiphany",
-      "descripcion": "Navegador web simple e integrado con el entorno de escritorio GNOME.",
-      "url": "https://wiki.gnome.org/Apps/Web",
-      "arquitectura": "64-bit",
-      "ultima_version": "depende-distro",
-      "fecha_actualizacion": "depende-entorno",
-      "fecha_fin_soporte": "depende-distro"
-    },
-    {
-      "nombre": "Midori",
-      "slug": "midori",
-      "descripcion": "Navegador web ligero y rápido que utiliza el motor de renderizado Blink.",
-      "url": "https://www.midori-browser.org/",
-      "arquitectura": "64-bit",
-      "ultima_version": "10.0.2",
-      "fecha_actualizacion": "2021-07",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "NetSurf",
-      "slug": "netsurf",
-      "descripcion": "Navegador web ligero y de código abierto, diseñado para sistemas con pocos recursos.",
-      "url": "https://www.netsurf-browser.org/",
-      "arquitectura": "64-bit",
-      "ultima_version": "3.10",
-      "fecha_actualizacion": "2020-06",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "Dillo",
-      "slug": "dillo",
-      "descripcion": "Navegador web muy pequeño y rápido, ideal para máquinas antiguas o embebidas.",
-      "url": "https://www.dillo.org/",
-      "arquitectura": "64-bit",
-      "ultima_version": "3.0.5",
-      "fecha_actualizacion": "2015-07",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "Surf",
-      "slug": "surf",
-      "descripcion": "Navegador web minimalista basado en WebKit/GTK, parte del proyecto suckless.",
-      "url": "https://surf.suckless.org/",
-      "arquitectura": "64-bit",
-      "ultima_version": "0.9",
-      "fecha_actualizacion": "2020-05",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "Yandex Browser",
-      "slug": "yandex",
-      "descripcion": "Navegador web de Yandex con funciones de seguridad y personalización.",
-      "url": "https://browser.yandex.com/",
-      "arquitectura": "64-bit",
-      "ultima_version": "actual",
-      "fecha_actualizacion": "variable",
-      "fecha_fin_soporte": "depende-proyecto"
-    },
-    {
-      "nombre": "Ladybird",
-      "slug": "ladybird",
-      "descripcion": "Navegador web en desarrollo activo, parte del proyecto SerenityOS.",
-      "url": "https://ladybird.browser.org/",
-      "arquitectura": "64-bit",
-      "ultima_version": "experimental",
-      "fecha_actualizacion": "no-aplica",
+      "nombre": "links2",
+      "version": "2.30",
+      "fluidez_rating": "media",
+      "puntuacion_fluidez_benchmark": 70.4,
+      "seguridad_rating": "media",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "GUI",
+      "fecha_actualizacion": "2025-07-22",
       "fecha_fin_soporte": "no-aplica"
     },
     {
-      "nombre": "Qutebrowser",
-      "slug": "qutebrowser",
-      "descripcion": "Navegador web basado en QtWebEngine con un enfoque en el teclado y una interfaz minimalista.",
-      "url": "https://www.qutebrowser.org/",
-      "arquitectura": "64-bit",
-      "ultima_version": "3.0.0",
-      "fecha_actualizacion": "2024-04",
+      "nombre": "elinks",
+      "version": "0.14.0",
+      "fluidez_rating": "alta",
+      "puntuacion_fluidez_benchmark": 105.1,
+      "seguridad_rating": "media",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "Terminal",
+      "fecha_actualizacion": "2024-02-15",
       "fecha_fin_soporte": "depende-proyecto"
+    },
+    {
+      "nombre": "w3m",
+      "version": "0.5.3",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 130.0,
+      "seguridad_rating": "baja",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "Terminal",
+      "fecha_actualizacion": "2024-01-10",
+      "fecha_fin_soporte": "no-aplica"
+    },
+    {
+      "nombre": "lynx",
+      "version": "2.8.9rel.1",
+      "fluidez_rating": "muy_alta",
+      "puntuacion_fluidez_benchmark": 135.5,
+      "seguridad_rating": "baja",
+      "ultima_revision_seguridad": "2025-08-02",
+      "soporte_grafico": "Terminal",
+      "fecha_actualizacion": "2023-10-05",
+      "fecha_fin_soporte": "no-aplica"
     }
   ]
 }
