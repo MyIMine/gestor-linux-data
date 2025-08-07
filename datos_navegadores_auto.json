@@ -1,0 +1,117 @@
+[
+  {
+    "nombre": "firefox-esr",
+    "version": "115.13.0esr",
+    "fecha_actualizacion": "2024-07-01"
+  },
+  {
+    "nombre": "chromium",
+    "version": "126.0.x",
+    "fecha_actualizacion": "2024-07-03"
+  },
+  {
+    "nombre": "librewolf",
+    "version": "126.0-2",
+    "fecha_actualizacion": "2024-07-03"
+  },
+  {
+    "nombre": "mullvad",
+    "version": "13.5",
+    "fecha_actualizacion": "2024-06-28"
+  },
+  {
+    "nombre": "brave",
+    "version": "1.66.x",
+    "fecha_actualizacion": "2024-07-03"
+  },
+  {
+    "nombre": "thorium",
+    "version": "126.0.x",
+    "fecha_actualizacion": "2024-07-02"
+  },
+  {
+    "nombre": "pale-moon",
+    "version": "33.2.0",
+    "fecha_actualizacion": "2024-06-30"
+  },
+  {
+    "nombre": "seamonkey",
+    "version": "2.53.x",
+    "fecha_actualizacion": "2024-04"
+  },
+  {
+    "nombre": "otter-browser",
+    "version": "1.0.03",
+    "fecha_actualizacion": "2024-06"
+  },
+  {
+    "nombre": "srware-iron",
+    "version": "126.x",
+    "fecha_actualizacion": "2024-06"
+  },
+  {
+    "nombre": "surf",
+    "version": "2.1",
+    "fecha_actualizacion": "2022"
+  },
+  {
+    "nombre": "yandex",
+    "version": "24.x",
+    "fecha_actualizacion": "2024-06"
+  },
+  {
+    "nombre": "links2",
+    "version": "2.29",
+    "fecha_actualizacion": "2023-11"
+  },
+  {
+    "nombre": "w3m",
+    "version": "0.5.3",
+    "fecha_actualizacion": "2022"
+  },
+  {
+    "nombre": "elinks",
+    "version": "0.16.1",
+    "fecha_actualizacion": "2022"
+  },
+  {
+    "nombre": "lynx",
+    "version": "2.9.0",
+    "fecha_actualizacion": "2023"
+  },
+  {
+    "nombre": "falkon",
+    "version": "3.2",
+    "fecha_actualizacion": "2022-07"
+  },
+  {
+    "nombre": "basilisk",
+    "version": "2024-06-25",
+    "fecha_actualizacion": "2024-06-25"
+  },
+  {
+    "nombre": "qutebrowser",
+    "version": "3.x",
+    "fecha_actualizacion": "2024-06"
+  },
+  {
+    "nombre": "epiphany",
+    "version": "46.x",
+    "fecha_actualizacion": "2024-04"
+  },
+  {
+    "nombre": "midori",
+    "version": "10.0.2",
+    "fecha_actualizacion": "2021-07"
+  },
+  {
+    "nombre": "netsurf",
+    "version": "3.10",
+    "fecha_actualizacion": "2020-06-25"
+  },
+  {
+    "nombre": "dillo",
+    "version": "3.0.5",
+    "fecha_actualizacion": "2015-07"
+  }
+]
