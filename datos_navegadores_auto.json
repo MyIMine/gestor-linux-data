@@ -1,117 +1,117 @@
 [
   {
     "nombre": "firefox-esr",
-    "version": "115.13.0esr",
-    "fecha_actualizacion": "2024-07-01"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "chromium",
-    "version": "126.0.x",
-    "fecha_actualizacion": "2024-07-03"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "librewolf",
-    "version": "126.0-2",
-    "fecha_actualizacion": "2024-07-03"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "mullvad",
-    "version": "13.5",
-    "fecha_actualizacion": "2024-06-28"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "brave",
-    "version": "1.66.x",
-    "fecha_actualizacion": "2024-07-03"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "thorium",
-    "version": "126.0.x",
-    "fecha_actualizacion": "2024-07-02"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
-    "nombre": "pale-moon",
-    "version": "33.2.0",
-    "fecha_actualizacion": "2024-06-30"
+    "nombre": "palemoon",
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "seamonkey",
-    "version": "2.53.x",
-    "fecha_actualizacion": "2024-04"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
-    "nombre": "otter-browser",
-    "version": "1.0.03",
-    "fecha_actualizacion": "2024-06"
+    "nombre": "otter",
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "srware-iron",
-    "version": "126.x",
-    "fecha_actualizacion": "2024-06"
-  },
-  {
-    "nombre": "surf",
-    "version": "2.1",
-    "fecha_actualizacion": "2022"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "yandex",
-    "version": "24.x",
-    "fecha_actualizacion": "2024-06"
-  },
-  {
-    "nombre": "links2",
-    "version": "2.29",
-    "fecha_actualizacion": "2023-11"
-  },
-  {
-    "nombre": "w3m",
-    "version": "0.5.3",
-    "fecha_actualizacion": "2022"
-  },
-  {
-    "nombre": "elinks",
-    "version": "0.16.1",
-    "fecha_actualizacion": "2022"
-  },
-  {
-    "nombre": "lynx",
-    "version": "2.9.0",
-    "fecha_actualizacion": "2023"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "falkon",
-    "version": "3.2",
-    "fecha_actualizacion": "2022-07"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "basilisk",
-    "version": "2024-06-25",
-    "fecha_actualizacion": "2024-06-25"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "qutebrowser",
-    "version": "3.x",
-    "fecha_actualizacion": "2024-06"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "epiphany",
-    "version": "46.x",
-    "fecha_actualizacion": "2024-04"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "midori",
-    "version": "10.0.2",
-    "fecha_actualizacion": "2021-07"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "netsurf",
-    "version": "3.10",
-    "fecha_actualizacion": "2020-06-25"
+    "version": null,
+    "fecha_actualizacion": null
   },
   {
     "nombre": "dillo",
-    "version": "3.0.5",
-    "fecha_actualizacion": "2015-07"
+    "version": null,
+    "fecha_actualizacion": null
+  },
+  {
+    "nombre": "links2",
+    "version": null,
+    "fecha_actualizacion": null
+  },
+  {
+    "nombre": "w3m",
+    "version": null,
+    "fecha_actualizacion": null
+  },
+  {
+    "nombre": "elinks",
+    "version": null,
+    "fecha_actualizacion": null
+  },
+  {
+    "nombre": "lynx",
+    "version": null,
+    "fecha_actualizacion": null
+  },
+  {
+    "nombre": "surf",
+    "version": null,
+    "fecha_actualizacion": null
   }
 ]
